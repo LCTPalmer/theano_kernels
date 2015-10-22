@@ -8,5 +8,6 @@ Requires:<br>
 numpy<br>
 Theano<br>
 ###Benchmarking vs sklearn.metrics.pairwise implementations
+Experiments carried out on Intel Xeon W3520 CPU and GeForce 560 Ti GPU <br>
 ![rbf_benchmark](benchmark_images/theano_rbf_vs_sklearn.png)
 ![chi2_benchmark](benchmark_images/theano_chi2_vs_sklearn.png)
